@@ -6,13 +6,14 @@ html {
   font-size: 62.5%;
 }
 body {
-    width: 100%;
+    /* width: 100%; */
     height: 100vh;
     background-image:url(../backgroun.webp);
-    background-position: center;
+    background-position: center center;
     background-size: cover; 
     background-repeat: no-repeat;
-}
+    background-attachment: fixed;
+}  
 
 .nav-item {
     display: inline-block;
@@ -174,3 +175,72 @@ left: 24rem;
       font-size: 45%;
   }
 }
+
+@media screen and (max-width:1200px){
+ 
+  body{
+    overflow-x: hidden;
+  }
+  .nav-item {
+      display: none;
+  }
+  hr{
+      display: none;  
+  }
+  h1{
+      font-size: 55px;
+      margin-right: 60px;
+  }
+  .head{
+      width:400px;
+  }
+   .call{
+   display: none;
+
+}
+.interior{
+  margin-left: -50px;
+}
+.right{
+  margin-left: -100px;
+  margin-top: 80px;
+}
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width:900px){
+  body{
+    overflow-x: hidden;
+  }
+  .logo{
+    display: none;
+  }
+  .right{
+    position: relative;
+    top:500px;
+    right:350px;
+  }
+  .puzzle,.bulb{
+    width:180px;
+    height:100px;
+  }
+
+  .left{
+    position: relative;
+    right:100px;
+    top:70px;
+  }
+  .line2,.dot2{
+    margin-left: 35px;
+  }
+  .right p{
+    font-size: 15px;
+  } 
+}
+
