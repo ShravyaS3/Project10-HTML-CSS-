@@ -6,7 +6,7 @@
 
 ![BADGE](https://img.shields.io/badge/-SHRAVYA%20SARUGU-FF69B4)
 
-# Learning from this project:
+# Learnings from this project:
 
 - Gained indepth knowledge about writing proper html code.
 
@@ -14,4 +14,6 @@
 
 ## Time taken: 3 hours
 
-[Web Page:Live-Link](https://project10-htmlcss.netlify.app/)
+# Web Page : [Live-Link](https://project10-htmlcss.netlify.app/)
+
+![Thumbnail](./thumbnail.png)
